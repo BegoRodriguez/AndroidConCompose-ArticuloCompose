@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             ArtículoDeComposeTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    ArticleText(
+                    ArticleImage(
                         title = stringResource(R.string.article_title),
                         intro = stringResource(R.string.article_intro),
                         article = stringResource(R.string.article_text),
